@@ -1,0 +1,73 @@
+.container_grid {
+    margin: auto;
+    display: grid; 
+    max-width: 900px;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px 0;
+    padding: 20px;
+}
+
+.products_disp {
+    grid-column: 1/-1;
+}
+
+.grid_img_left {
+    grid-column: 1/5;
+    width: 90%;
+    margin: auto;
+}
+
+.grid_text_right {
+    display: flex;
+    justify-content: center;
+    grid-column: 5/13;
+    flex-direction: column;
+}
+
+.grid_text_right h3{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+
+.grid_img_right {
+    grid-column: 9/13;
+    width: 90%;
+    margin: auto;
+}
+
+.grid_text_left {
+    display: flex;
+    justify-content: center;
+    grid-column: 1/9;
+    flex-direction: column;
+}
+
+.grid_text_left h3{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+/* Aqui inicia el conenedor del formulario */
+.container_grid_form {
+    margin: auto;
+    display: grid; 
+    max-width: 900px;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0 10px;
+    padding: 20px;
+}
+
+.container_grid_left {
+    grid-column: 1/5;;
+}
+
+.container_grid_right {
+    grid-column: 5/13;
+}
+
+@media (max-width:600px){
+    .container_grid_form {
+        display: inherit;
+    }
+}

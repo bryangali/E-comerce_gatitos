@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+    <link rel="stylesheet" href="/css/animation.css">
+    <title>Brand</title>
+</head>
+<body>
+    <header>
+         <!-- Aqui empieza el nav bar -->
+    <nav class="fadeDown">
+        <div class="brand_image">
+            <img src="/images/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li>
+                 <a href="#">Faqs</a>
+            </li>
+            <li>
+                <a href="/products.html">Producto y descripción </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Aquí acaba el nav bar -->
+    </header>
+    <!-- Aquí inicia el main -->
+<main>
+    <!-- Aqui empieza el formulario de venta -->
+    <div class="container_grid_form">
+        <div class="container_grid_left fadeLeft">
+            <div class="form_container_image">
+                <img src="/images/box1.png" alt="">
+            </div>
+            <h3>
+                Producto1
+            </h3>
+            <p>
+                Miles de productos hay en el mercado, pero ninguno como una caja de gatitos.
+            </p>
+        </div>
+        <div class="container_grid_right fadeRigth">
+            <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZN7SZXHUKAMHG" method="post">
+                <label for="name">Nombre </label>
+                <input type="text" placeholder="" name ="name" class="data_user" required>
+                <label for="email">E-mail </label>
+                <input type="email" placeholder="" name ="email" class="data_user" required>
+                <label for="phone">Telefono </label>
+                <input type="tel" placeholder="" name ="phone" class="data_user" required>
+                <input type="submit" class="main_button" name="submit" value="Confirmar pago">
+            </form>    
+        </div>
+    </div>
+    <!-- Aqui termina el formulario de venta -->
+</main>
+    <!-- Aquí acaba el main -->
+    <footer>
+        <a class="footer_term" href="#">
+            Términos y condiciones
+        </a>
+        <a class="footer_contac" href="mailto:zaboniz58@gmail.com">
+            zaboniz58@gmial.com
+        </a>
+    </footer>
+    <!-- Aqui termina el footer -->
+<script src="/scripts/script.js"></script>
+</body>
+</html>

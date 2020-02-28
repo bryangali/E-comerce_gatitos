@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+    .main_section {
+        padding: 4%;
+        display: block;
+    }
+
+    .products {
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin: auto;
+    }
+
+    .best {
+        display: inherit;
+    }
+
+    .best_item {
+        text-align: center;
+    }
+
+    .best_image_contain {
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .mentions_content {
+        display: inherit;
+    }
+}
